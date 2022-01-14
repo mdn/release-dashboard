@@ -22,3 +22,6 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+Small app to display bugzilla bugs which need dev docs
+>>>>>>> 306f00d (Initial commit)
