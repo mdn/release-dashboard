@@ -32,11 +32,35 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Dashboard',
   props: {
     msg: String
   }
 }
+
+const baseUrl = `https://bugzilla.mozilla.org/rest/bug?keywords=dev-doc-needed&api_key=${process.env.VUE_APP_BUGZILLA_API_KEY}&include_fields=id&limit=10`;
+console.log(process.env.VUE_APP_BUGZILLA_API_KEY);
+
+let myHeaders = new Headers();
+// myHeaders.append('Access-Control-Allow-Origin', '*');
+myHeaders.append('content-type', 'application/json');
+myHeaders.append('accept','application/json');
+
+const headObj = {
+  method: 'GET',
+  headers: myHeaders,
+  mode: 'cors',
+}
+
+fetch(baseUrl, headObj)
+  .then(res => {return res.json()})
+  .then(data => {
+    
+  console.log(data);
+})
+  .catch(err => {console.warn(err)});
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
