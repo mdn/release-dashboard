@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Dashboard msg="Bugzilla Dashboard Thingy"/>
+  <h1>Release Dashboard</h1>
+  <Dashboard />
 </template>
 
 <script>
-import Dashboard from './components/Dashboard.vue'
+import Dashboard from "./components/ReleaseDashboard.vue";
 
 export default {
-  name: 'App',
+  name: "ReleaseDashboard",
   components: {
-    Dashboard
-  }
-}
+    Dashboard,
+  },
+};
 </script>
 
 <style>
-#app {
+.app-container {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #212121;
+  margin: 4rem 2rem;
 }
 </style>
