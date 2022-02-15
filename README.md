@@ -1,6 +1,17 @@
-# release-dashboard
+# Release Dashboard
+
+An app for managing bugzilla bugs that need MDN docs.
+
+You can look up bugs for the next release, bugs that might need `dev-doc-needed`, bugs from different categories.
+
+You can batch set `dev-doc-complete` and push bugs to github projects.
+
+(Add feature list here)
 
 ## Project setup
+
+Create a `env` with a bugzilla api key set: `VUE_APP_BUGZILLA_API_KEY=`
+
 ```
 yarn install
 ```
@@ -21,7 +32,10 @@ yarn lint
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
 =======
-Small app to display bugzilla bugs which need dev docs
+
+
 >>>>>>> 306f00d (Initial commit)
