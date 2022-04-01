@@ -1,40 +1,20 @@
-<script>
-import Home from './Home.vue'
-import Releases from './Releases.vue'
-import Github from './Github.vue'
-import NotFound from './NotFound.vue'
+<template>
+  <header>
+    <h1>MDN Content Tools</h1>
+  </header>
+  
+  <section class="page-home">
+    <a href="#/releases">Releases</a>
+    <a href="#/github">GitHub</a>
+  </section>
+</template>
 
-const routes = {
-  '/': Home,
-  '/releases': Releases,
-  '/github': Github,
-}
+<script>
 
 export default {
-  data() {
-    return {
-      currentPath: window.location.hash
-    }
-  },
-  computed: {
-    currentView() {
-      return routes[this.currentPath.slice(1) || '/'] || NotFound
-    }
-  },
-  mounted() {
-    window.addEventListener('hashchange', () => {
-      this.currentPath = window.location.hash
-    })
-  }
-}
+  name: "HomePage"
+};
 </script>
-
-<template>
-  <a href="#/">Home</a> |
-  <a href="#/releases">Release Dashboard</a> |
-  <a href="#/github">GitHub Viz</a>
-  <component :is="currentView" />
-</template>
 
 <style>
   /** creating some base styles */

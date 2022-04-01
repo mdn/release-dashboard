@@ -1,12 +1,18 @@
-# Release Dashboard
+# MDN Content Dashboard
 
-An app for managing bugzilla bugs that need MDN docs.
+An app of tools for the MDN Content Team.
+
+## Release dashboard
+
+Tool for managing bugzilla bugs that need MDN docs.
 
 You can look up bugs for the next release, bugs that might need `dev-doc-needed`, bugs from different categories.
 
 You can batch set `dev-doc-complete` and push bugs to github projects.
 
 (Add feature list here)
+
+## GitHub Visualisation
 
 ## Project setup
 
