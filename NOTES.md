@@ -1,0 +1,1403 @@
+# Bugzilla info
+
+Making a note of all the things we can query on bugzilla, to help build the query class. (This comes from advanced search).
+
+### Bug info (open fields)
+
+- Comment
+- URL
+- Whiteboard
+- Keywords
+- Votes
+
+---
+
+#### Version
+
+This is usually `Firefox ##`, can be `## Branch` or just the version number `##`.
+
+#### Target Milestone
+
+This is usually `Firefox ##`, can be `## Branch` or just the version number `##`. Spaces may be omitted.
+
+#### Type
+
+- defect
+- enhancement
+- task
+
+#### Status
+
+- UNCONFIRMED
+- NEW
+- ASSIGNED
+- REOPENED
+- RESOLVED
+- VERIFIED
+- CLOSED
+
+#### Resolution
+
+- FIXED
+- INVALID
+- WONTFIX
+- INACTIVE
+- DUPLICATE
+- WORKSFORME
+- INCOMPLETE
+- SUPPORT
+- EXPIRED
+- MOVED
+
+---
+
+These don't matter so much apart from maybe Product & Component (but they are very long)
+
+
+#### Severity
+
+- blocker
+- S1
+- critical
+- S2
+- major
+- normal
+- S3
+- minor
+- S4
+- trivial
+- N/A
+- enhancement
+
+#### Priority
+
+- P1
+- P2
+- P3
+- P4
+- P5
+
+#### Hardware
+
+- Unspecified
+- All
+- Desktop
+- ARM
+- ARM64
+- DEC
+- HP
+- PowerPC
+- x86
+- x86_64
+- SGI
+- Sun
+- XScale
+- Other
+
+#### OS
+
+- Unspecified
+- All
+- Windows
+- Windows 95
+- Windows 98
+- Windows ME
+- Windows NT
+- Windows 2000
+- Windows XP
+- Windows Server 2003
+- Windows Server 2008
+- Windows Vista
+- Windows 7
+- Windows 8
+- Windows 8 Metro
+- Windows 8.1
+- Windows 10
+- Windows 11
+- Windows CE
+- Windows Mobile 6 Standard
+- Windows Mobile 6 Professional
+- Windows Phone
+- Windows Phone 7
+- Windows Phone 7.5
+- Windows Phone 7.8
+- Windows Phone 8
+- Mac System 7
+- Mac System 7.5
+- Mac System 7.6.1
+- Mac System 8.0
+- Mac System 8.5
+- Mac System 8.6
+- Mac System 9.x
+- macOS
+- Linux
+- Gonk (Firefox OS)
+- Android
+- Maemo
+- MeeGo
+- Mer
+- iOS
+- iOS 3
+- iOS 4
+- iOS 5
+- iOS 6
+- iOS 7
+- iOS 8
+- iOS 9
+- iOS 10
+- iOS 11
+- BSDI
+- FreeBSD
+- NetBSD
+- OpenBSD
+- AIX
+- BeOS
+- HP-UX
+- IRIX
+- Neutrino
+- OpenVMS
+- OS/2
+- OSF/1
+- SunOS
+- Solaris
+- OpenSolaris
+- Symbian
+- Other
+
+#### Classification:
+
+- Client Software
+- Developer Infrastructure
+- Components
+- Server Software
+- Other
+- Graveyard
+
+#### Product:
+                
+- addons.mozilla.org
+- Air Mozilla
+- App Stores
+- Bugzilla
+- bugzilla.mozilla.org
+- Calendar
+- Chat Core
+- Cloud Services
+- Community Building
+- Conduit
+- Core
+- Data &amp; BI Services Team
+- Data Compliance
+- Data Platform and Tools
+- Data Science
+- Developer Ecosystem
+- Developer Engagement
+- Developer Infrastructure
+- Developer Services
+- developer.mozilla.org
+- DevTools
+- Directory
+- Emerging Markets
+- Enterprise Support
+- External Software Affecting Firefox
+- Fenix
+- Firefox
+- Firefox Build System
+- Firefox for Echo Show
+- Firefox for iOS
+- Firefox Friends
+- Firefox Private Network
+- firstlook.firefox.com
+- Focus
+- Focus-iOS
+- GeckoView
+- Infrastructure &amp; Operations
+- Instantbird
+- Instantbird Servers
+- Internet Public Policy
+- L20n
+- value="Localization Infrastructure and Tools"Localization Infrastructure and Tools
+- Location
+- MailNews Core
+- Marketing
+- Marketing Graveyard
+- Mozilla China
+- Mozilla Corporation
+- Mozilla Foundation
+- Mozilla Foundation Communications
+- Mozilla Grants
+- Mozilla Localizations
+- Mozilla Messaging
+- Mozilla Metrics
+- Mozilla QA
+- Mozilla Reps
+- Mozilla VPN
+- mozilla.org
+- NSPR
+- NSS
+- Other Applications
+- Participation Infrastructure
+- Plugin Check
+- Pocket
+- Product Innovation
+- quality.mozilla.org
+- Release Engineering
+- Remote Protocol
+- SeaMonkey
+- Security Assurance
+- Shield
+- Snippets
+- Socorro
+- support.mozilla.org
+- support.mozilla.org - Lithium
+- Taskcluster
+- Tecken
+- Testing
+- Testopia
+- Thunderbird
+- Toolkit
+- Tracking
+- Tree Management
+- Untriaged Bugs
+- User Experience Design
+- User Research
+- UX Systems
+- Web Apps
+- Web Compatibility
+- WebExtensions
+- Websites
+- Webtools
+- www.mozilla.org
+
+#### Component
+
+- about:debugging
+- about:logins
+- about:memory
+- Accessibility Tools
+- Account Help
+- Account manager
+- Account wizard
+- ach / Acholi
+- Actions
+- activations.mozilla.org
+- Activity Streams: General
+- Activity Streams: Server Operations
+- Activity Streams: Timeline
+- Adaptive Search
+- Add-on Recommender
+- Add-ons Manager
+- Add-Ons: Extensions API
+- Add-Ons: General
+- addons.instantbird.org
+- Address Bar
+- Address Book
+- Administration
+- Administration / Setup
+- Administration/Accounting
+- af / Afrikaans
+- Agent
+- air.mozilla.com
+- ak / Akan
+- Alarms
+- an / Aragonese
+- Analytics
+- Android
+- Android client
+- Android Studio and Gradle Integration
+- Antenna
+- API
+- API Key
+- API Requests
+- App
+- App Center
+- App Store Access
+- Application Panel
+- Application Update
+- Applications
+- Applications: Mapper
+- Applications: MozharnessCore
+- Applications: Shipit
+- Applied Machine Learning
+- Apps
+- ar / Arabic
+- Army of Awesome
+- as / Assamese
+- Ask a Question Workflow
+- Asset
+- ast / Asturian
+- Async Tooling
+- Attachments
+- Attachments &amp; Requests
+- Audio/Video
+- Audio/Video: cubeb
+- Audio/Video: GMP
+- Audio/Video: MediaStreamGraph
+- Audio/Video: Playback
+- Audio/Video: Recording
+- AUS Server
+- Autocomplete
+- AutoConfig (Mission Control Desktop)
+- Automation
+- AVOps: Corsica
+- AVOps: Crestron
+- AVOps: Projects
+- AVOps: Streaming
+- AVOps: Vidyo
+- Award Management
+- AWSY
+- az / Azerbaijani
+- Backend
+- Basket
+- be / Belarusian
+- Bedrock
+- bg / Bulgarian
+- BI: Existing Dashboards
+- BI: New Dashboards
+- BI: Tableau Administration
+- BigBlueButton
+- Bleach-security
+- Blocklist Implementation
+- Blocklist Policy Requests
+- Blog
+- blog.instantbird.com
+- Blogs
+- bm / Bambara
+- bn / Bengali
+- bn-BD / Bengali
+- bn-IN / Bengali (India)
+- bo / Tibetan
+- Bookmarks &amp; History
+- Bootstrap Configuration
+- Bouncer
+- br / Breton
+- Browser
+- browserchoice.mozilla.com
+- brx / Bodo
+- bs / Bosnian
+- BuddyUp
+- Budget Requests
+- Bug Creation/Editing
+- Bug Import/Export &amp; Moving
+- Bugherder
+- Bugzilla-General
+- bugzilla.org
+- Build
+- Build &amp; Test
+- Build Config
+- Build Documentation
+- buildbot.instantbird.org
+- Bulk Bug Edit Requests
+- Business Development
+- ca / Catalan
+- CA Certificate Compliance
+- CA Certificate Root Program
+- CA Certificates Code
+- ca-valencia / Catalan (Valencian)
+- cak / Kaqchikel
+- Calendar
+- Calendar Frontend
+- Campaign
+- Canvas: 2D
+- Canvas: WebGL
+- careers.mozilla.org
+- Case Conductor-Platform
+- CCK
+- CDP
+- Change Requests
+- Chat
+- ChatZilla
+- CI Configuration
+- Client
+- Client for Android
+- Client for iOS
+- Client for Linux
+- Client for Mac
+- Client for Windows
+- Cloning
+- cloudSync
+- Code Coverage
+- Code Quality
+- Common CA Database
+- Community
+- Community Equipment/Hardware
+- Community Fundraising and Partnerships
+- Community Giving
+- Community IT: Discourse
+- Community Ops
+- communitystore.mozilla.org
+- compare-locales
+- Compatibility
+- Component
+- Composer
+- Composition
+- Condprofile
+- Console
+- Consultation
+- Consulting
+- Contacts window
+- Content
+- Continous Integration
+- Contribute
+- Contributor and Question Forums
+- Conversation
+- Copy
+- Copy Editing and Review
+- Copyright and Patent
+- Corporate VPN: ACL requests
+- Corporate VPN: Support requests
+- CPPUnitTest
+- Crash Reporting
+- crash-stats.instantbird.com
+- Creating/Changing Bugs
+- creative.mozilla.org
+- Crestron
+- crh / Crimean Tatar
+- CRM
+- cs / Czech
+- csb / Kashubian
+- CSS and Themes
+- CSS Parsing and Computation
+- CSS Transitions and Animations
+- Custom Bug Entry Forms
+- CVS: Administration
+- CVS: Copy
+- cy / Welsh
+- Cyber-Security
+- da / Danish
+- DAM
+- Dashboard
+- Data Complaints
+- Data Processing : ETL : Vertica target
+- Data request
+- Data Sanitization
+- Data Storage
+- Data Warehouse
+- Data/Backend Reports
+- Database
+- Datasets: Events
+- Datasets: Experiments
+- Datasets: General
+- Datasets: Main Summary
+- Datasets: Mobile
+- Datasets: Telemetry Aggregates
+- DB: Hadoop Administration
+- DB: MySQL
+- DB: MySQL bugzilla/reviewboard
+- DB: Postgres
+- DCOps
+- de / German
+- Debug
+- Debugger
+- Demo Add-ons
+- Demo Request
+- demos.mozilla.org
+- Dependency Views
+- Design
+- Design Review
+- Desktop
+- detodosparatodos.org
+- Dev Kit
+- Develop Budget
+- Develop Proposal
+- Developer Box
+- Developer Environment Integration
+- Developer Outreach
+- Developer Tools
+- DI: Bagheera/Kafka
+- DI: Hadoop
+- DI: New request
+- DI: Other
+- DI: Problem/support
+- Dialogs
+- Disability Access
+- Disability Access APIs
+- Discussion Forums
+- Distributions
+- DLL Services
+- DMD
+- DNS and Domain Registration
+- Documentation
+- Documentation and Knowledge Repo (RTMO)
+- Documentation Infrastructure
+- DOM
+- DOM Inspector
+- DOM: Animation
+- DOM: Bindings (WebIDL)
+- DOM: Content Processes
+- DOM: Copy &amp; Paste and Drag &amp; Drop
+- DOM: Core &amp; HTML
+- DOM: CSS Object Model
+- DOM: Device Interfaces
+- DOM: Editor
+- DOM: Events
+- DOM: File
+- DOM: Forms
+- DOM: Geolocation
+- DOM: HTML Parser
+- DOM: Navigation
+- DOM: Networking
+- DOM: postMessage
+- DOM: Push Notifications
+- DOM: Security
+- DOM: Selection
+- DOM: Serializers
+- DOM: Service Workers
+- DOM: Streams
+- DOM: UI Events &amp; Focus Handling
+- DOM: Web Authentication
+- DOM: Web Crypto
+- DOM: Web Payments
+- DOM: Window and Location
+- DOM: Workers
+- donate.mozilla.org
+- Download &amp; File Handling
+- Downloads API
+- Downloads Panel
+- downloadstats.mozilla.com
+- dsb / Lower Sorbian
+- E-mail based Scheduling (iTIP/iMIP)
+- Editbugs Requests
+- Education and Culture
+- ee / Ewe
+- el / Greek
+- Email
+- Email Notifications
+- Email Outreach
+- en-CA / English (Canada)
+- en-GB / English (United Kingdom)
+- en-ZA / English (South Africa)
+- Enterprise Policies
+- Environments
+- eo / Esperanto
+- es / International Spanish
+- es-AR / Spanish (Argentina)
+- es-CL / Spanish (Chile)
+- es-ES / Spanish
+- es-MX / Spanish (Mexico)
+- et / Estonian
+- eu / Basque
+- Evangelism
+- Event Requests
+- Eventloop
+- Events
+- Events Manager
+- Experiment Collaboration
+- Experiments
+- extendfirefox.com/mobile-cup/
+- Extension
+- Extension Compatibility
+- Extension Ideas
+- Extensions
+- Extensions: AntiSpam
+- Extensions: BMO
+- Extensions: BugmailFilter
+- Extensions: BzAPI Compatibility
+- Extensions: ComponentWatching
+- Extensions: EditComments
+- Extensions: FlagTypeComment
+- Extensions: GitHubAuth
+- Extensions: GuidedBugEntry
+- Extensions: Needinfo
+- Extensions: OrangeFactor
+- Extensions: Other
+- Extensions: ProdCompSearch
+- Extensions: Push
+- Extensions: REMO
+- Extensions: RequestNagger
+- Extensions: RestrictComments
+- Extensions: Review
+- Extensions: SecureMail
+- Extensions: TrackingFlags
+- Extensions: UserProfile
+- Extron
+- fa / Persian
+- Facebook
+- Facilities Management
+- Favicons
+- Feature request
+- FeatureGate
+- Feed Discovery and Preview
+- Feed Reader
+- feeds.mozilla.com
+- Fennec
+- ff / Fulah
+- fi / Finnish
+- Fields
+- File Handling
+- FileLink
+- Filters
+- Final Review
+- Find Backend
+- Find In Page
+- Find Toolbar
+- Firefox
+- Firefox Accounts
+- Firefox Desktop: Consultation
+- Firefox Desktop: Project Request
+- Firefox Flicks
+- Firefox Monitor
+- Firefox Start
+- Firefox Sync
+- Firefox UI Tests
+- Firefox-CI Administration
+- Firefox: Common
+- firefoxgarden.org
+- Flash (Adobe)
+- Fluent Migration
+- Folder and Message Lists
+- Form Autofill
+- Form Manager
+- Forum
+- Foxfooding
+- fr / French
+- Framework
+- Fraud Detection
+- friends.mozilla.org
+- Frontend
+- Frontend Reports
+- FTP: Mirrors
+- FTP: Staging
+- Fuzzing
+- FXTest-infra
+- fy-NL / Frisian
+- ga-IE / Irish
+- gd / Scottish Gaelic
+- Gecko Profiler
+- geckodriver
+- GeckoViewExample
+- General
+- General: Unsupported Platforms
+- getpocket.com
+- GFX: Color Management
+- Git
+- Github: Administration
+- gl / Galician
+- Glean Metric Types
+- Glean Platform
+- Glean: SDK
+- Glean.js
+- glow.mozilla.org
+- gn / Guarani
+- Google Play Access
+- Governance
+- Graphic Design
+- Graphics
+- Graphics: Layers
+- Graphics: Text
+- Graphics: WebGPU
+- Graphics: WebRender
+- Graveyard Tasks
+- GTest
+- gu-IN / Gujarati
+- ha / Hausa
+- Hadoop/HBase Operations
+- Hardware
+- Hardware Abstraction Layer (HAL)
+- haw / Hawaiian
+- he / Hebrew
+- Headless
+- Heartbeat
+- Help Documentation
+- Help Viewer
+- Heroku: Administration
+- hg.instantbird.org
+- hi-IN / hindi
+- History
+- Home screen
+- hr / Croatian
+- hsb / Upper Sorbian
+- HTML
+- HTML Bindings
+- hu / Hungarian
+- Hubs
+- hy-AM / Armenian
+- ia / Interlingua
+- iCal
+- ICAL.js Integration
+- id / Indonesian
+- ig / Igbo
+- ilo / Iloko
+- Image Blocking
+- ImageLib
+- Import
+- Import and Export
+- Import/Export
+- Incoming Email
+- Information Architecture &amp; UX
+- Infra
+- Infrastructure
+- Infrastructure: Backups
+- Infrastructure: LDAP
+- Infrastructure: Mail
+- Infrastructure: OpenVPN
+- Infrastructure: Other
+- Infrastructure: Puppet
+- Infrastructure: Tools
+- Inspector
+- Inspector: Animations
+- Inspector: Changes
+- Inspector: Compatibility
+- Inspector: Layout
+- Inspector: Rules
+- Installation &amp; Upgrading
+- Installer
+- Instant Messaging
+- Integrations
+- Internal Components
+- Internal Process
+- Internationalization
+- Internationalization: Localization
+- Internet Governance
+- Interventions
+- intlstore.mozilla.org
+- Investigation
+- Iodide
+- iOS client
+- IPC
+- IPC: MSCOM
+- IRC
+- irlpodcast.org
+- is / Icelandic
+- ISPDB Database Entries
+- ISPDB Server
+- it / Italian
+- IT-Managed Tools
+- ja / Japanese
+- JavaScript Engine
+- JavaScript Engine: JIT
+- JavaScript: GC
+- JavaScript: Internationalization API
+- JavaScript: Standard Library
+- Javascript: WebAssembly
+- JS Library
+- js-ctypes
+- JSON Viewer
+- ka / Georgian
+- kab / Kabyle
+- kanbanzilla
+- Keyboard Navigation
+- kk / Kazakh
+- km / Khmer
+- kn / Kannada
+- Knowledge Base Articles
+- Knowledge Base Content
+- Knowledge Base Software
+- ko / Korean
+- kok / Konkani
+- ks / Kashmiri
+- ku / Kurdish
+- L10N
+- L20n.org
+- Lando
+- Launch
+- Launch Proposal
+- Launcher Process
+- Layout
+- Layout: Block and Inline
+- Layout: Columns
+- Layout: Flexbox
+- Layout: Floats
+- Layout: Form Controls
+- Layout: Generated Content, Lists, and Counters
+- Layout: Grid
+- Layout: Images, Video, and HTML Frames
+- Layout: Positioned
+- Layout: Ruby
+- Layout: Scrolling and Overflow
+- Layout: Tables
+- Layout: Text and Fonts
+- LDAP C SDK
+- LDAP Integration
+- LDAP Java SDK
+- LDAP Tools
+- LDAP XPCOM SDK
+- learningfreedomandtheweb.org
+- Legacy PHP system
+- Legacy VCS
+- lg / Luganda
+- Libraries
+- Licensing
+- Lightning Only
+- Lightning: SeaMonkey Integration
+- lij / Ligurian
+- Lint and Formatting
+- Lithium Migration
+- ln / Lingala
+- lo / Lao
+- Load Testing Requests
+- Localization
+- Location Bar
+- Login Management
+- login.mozilla.com
+- Logo Design and Identity
+- lt / Lithuanian
+- ltg / Latgalian
+- lv / Latvian
+- Mach Core
+- Mach Vendor &amp; Updatebot
+- mai / Maithili
+- Mail Window Front End
+- MailNews: Account Configuration
+- MailNews: Address Book &amp; Contacts
+- MailNews: Backend
+- MailNews: Composition
+- MailNews: General
+- MailNews: Message Display
+- Marionette
+- Marketing Infrastructure
+- markup.mozilla.org
+- Material Review Request
+- MathML
+- Matrix
+- MCWS
+- mediawiki-bugzilla
+- meh / Mixteco Yucuhiti
+- Memory
+- Memory Allocator
+- Mentorship
+- Menu and Toolbar
+- Menus
+- Mercurial: bundleclone
+- Mercurial: bzexport
+- Mercurial: bzpost
+- Mercurial: configwizard
+- Mercurial: firefoxtree
+- Mercurial: hg.mozilla.org
+- Mercurial: mozext
+- Mercurial: Pushlog
+- Mercurial: qbackout
+- Mercurial: qimportbz
+- Mercurial: robustcheckout
+- Message Compose Window
+- Message Platform
+- Message Reader UI
+- Messaging System
+- Meta
+- Metrics
+- Metrics / LSI
+- Metrics Data Ping
+- Metrics Operations
+- Metrics: Dashboard
+- Metrics: Data Tools
+- Metrics: Product Metrics
+- MFBT
+- mg / Malagasy
+- Microsoft Store Access
+- Migration
+- MIME
+
+- Miscellaneous
+	- Mission Control
+- mix / Mixtepec Mixtec
+- mk / Macedonian
+- ml / Malayalam
+- mn / Mongolian
+- Mobile
+- Mobile Opportunity Research Initiative
+- MOC: Documentation
+- MOC: Problems
+- MOC: Projects
+- MOC: Root Cause Analysis
+- MOC: Service Requests
+- Mochitest
+- Monitoring &amp; Alerting
+- Morgoth
+- mots
+- Movemail
+- moz-phab
+- Mozbase
+- Mozbase Rust
+- MozFestEA
+- mozglue
+- Mozilla Community Sites
+- Mozilla Hacks
+- mozilla.de
+- mozilla.status.net
+- MozillaBuild
+- mozillalabs.com
+- MozIlluminate
+- mozperftest
+- mozregression
+- mozscreenshots
+- mr / Marathi
+- ms / Malay
+- Multi-Factor Authentication
+- my / Burmese
+- MyDashboard
+- nb-NO / Norwegian Bokmål
+- ne-NP / Nepali (Nepal)
+- Net Neutrality
+- Netmonitor
+- NetOps
+- NetOps: DC ACL Request
+- NetOps: DC Carrier
+- NetOps: DC Other
+- NetOps: DC Port Configurations
+- NetOps: Office ACL Requests
+- NetOps: Office Carrier
+- NetOps: Office Other
+- NetOps: Office Wireless
+- NetOps: Other
+- NetOps: Projects
+- Netsoul
+- Networking
+- Networking: Cache
+- Networking: Cookies
+- Networking: DNS
+- Networking: Domain Lists
+- Networking: File
+- Networking: FTP
+- Networking: HTTP
+- Networking: IMAP
+- Networking: JAR
+- Networking: NNTP
+- Networking: POP
+- Networking: SMTP
+- Networking: WebSockets
+- New Tab Page
+- Newsletters
+- Nimbus Desktop Client
+- nl / Dutch
+- nn-NO / Norwegian Nynorsk
+- Normandy Client
+- Normandy Server
+- Notifications and Alerts
+- nr / Southern Ndebele
+- NSIS Installer
+- nso / Northern Sotho (Pedi)
+- NSPR
+- Nucleus
+- Object Inspector
+- oc / Occitan
+- Office
+- openbadges.org
+- OpenH264
+- Operations
+- Operations and Service Requests
+- Operations: absearch
+- Operations: Activedata
+- Operations: AMO
+- Operations: Antenna
+- Operations: Autograph
+- Operations: Autopush
+- Operations: AWS Account Request
+- Operations: AWS Root Credentials
+- Operations: Balrog
+- Operations: Bastion Access
+- Operations: Bouncer
+- Operations: Bugzilla
+- Operations: Bzetl
+- Operations: ccadb2onecrl
+- Operations: CRLite
+- Operations: Delivery Console
+- Operations: Deployment Requests - DEPRECATED
+- Operations: Firefox Monitor
+- Operations: Firefox Private Network
+- Operations: Firefox Private Relay
+- Operations: Firefox Profiler
+- Operations: Kinto
+- Operations: LandoAPI
+- Operations: LandoUI
+- Operations: Location
+- Operations: Marketplace
+- Operations: Metrics/Monitoring
+- Operations: Miscellaneous
+- Operations: Normandy
+- Operations: Pageshot
+- Operations: Phabricator
+- Operations: Product Delivery
+- Operations: QA Tools
+- Operations: Releng
+- Operations: Send
+- Operations: Sentry
+- Operations: Shavar
+- Operations: Socorro
+- Operations: Speech
+- Operations: Sync
+- Operations: Taskcluster
+- Operations: Tecken
+- Operations: Top Sites
+- or / Odia
+- OS Integration
+- OS.File
+- Other
+- other.mozilla.org
+- Outreach Request
+- pa-IN / Punjabi
+- pad.mozilla.org
+- Page Info
+- Page Info Window
+- Pages &amp; Content
+- Panning and Zooming
+- Partnerships
+- Password Manager
+- Password Manager: Site Compatibility
+- Passwords &amp; Permissions
+- paste.mozilla.org
+- Pathways
+- Payments - Deprecated
+- PDF Viewer
+- Peekaboo
+- Perfherder
+- Performance
+- Performance Monitoring
+- Performance Tools (Profiler/Timeline)
+- PerLDAP
+- Permission Manager
+- Phabricator
+- Phabricator Integration
+- Phonebook
+- Picture-in-Picture
+- Pioneer
+- Pipeline Ingestion
+- pl / Polish
+- Places
+- planet.mozilla.org
+- Planning
+- Platform
+- Plug-ins
+
+- plugins.mozilla.org
+	- Pocket
+- Pontoon Security Issues
+- Preferences
+- Preferences: Backend
+- Press
+- Press Clips
+- Print Preview
+- Printing
+- Printing: Output
+- Printing: Setup
+- Prior Art
+- Privacy and Data
+- Privacy: Anti-Tracking
+- Private Browsing
+- Processor
+- Product Details
+- Profile Migration
+- Project Organization
+- Project Request
+- Project Review
+- Project Tracking
+- Protections UI
+- Provider: CalDAV
+- Provider: GData
+- Provider: ICS/WebDAV
+- Provider: Local Storage
+- Provider: WCAP
+- Proxy ACL Request
+- pt-BR / Portuguese (Brazil)
+- pt-PT / Portuguese
+- PTO
+- Pulse
+- Pulsebot
+- Push Health
+- Python Library
+- Python Test
+- QA Test Scripts
+- QA: General
+- QA: Test Automation
+- Quality
+- Query/Bug List
+- Questions
+- Rapid Risk Analysis
+- Raptor
+- Readable Bug Statuses
+- Reader Mode
+- Reader View
+- Reading List
+- Recognition
+- Recommendation
+- Redash (STMO)
+- Reftest
+- Registration &amp; Management
+- Relay
+- Release Automation: Bouncer
+- Release Automation: L10N
+- Release Automation: Other
+- Release Automation: Signing
+- Release Automation: Snap
+- Release Automation: Updates
+- Release Automation: Uploading
+- Release Engineering
+- Release notes
+- Release Requests
+- Relops: Azure
+- RelOps: General
+- RelOps: Hardware
+- RelOps: OpenCloudConfig
+- RelOps: Posix OS
+- RelOps: Puppet
+- RelOps: Windows OS
+- Remote Settings Client
+- Rendering
+- Repair
+- Reporting/Charting
+- Reports
+- Reports/Deliverables
+- Repository Account Requests
+- Request Handling
+- Research
+- Responsive Design Mode
+- Review
+- Risk Record
+- rm / Romansh
+- ro / Romanian
+- Rollouts
+- ru / Russian
+- Runtime
+- rw / Kinyarwanda
+- Safe Browsing
+- sah / Sakha
+- Sanitizers
+- sat / Santali
+- Schedule
+- Scheduling
+- sco / Scots
+- Screenshots
+- Scrumbugs
+- Search
+- Searchfox
+- Security
+- Security Alerts
+- Security Assurance
+- Security Assurance: Applications
+- Security Assurance: Review Request
+- Security Block-lists, Allow-lists, and other State
+- Security:  Firefox Lite
+- Security: Android
+- Security: CAPS
+- Security: General
+- Security: iOS
+- Security: OpenPGP
+- Security: OTR
+- Security: Process Sandboxing
+- Security: PSM
+- Security: RLBox
+- Security: S/MIME
+- Server Operations
+- Server Operations: Community IT
+- Server: absearch
+- Server: Account Portal
+- Server: Core
+- Server: Firefox Accounts
+- Server: Identity
+- Server: Key Exchange
+- Server: Location
+- Server: Other
+- Server: Product Announcements Campaign Manager
+- Server: Product Announcements Redirector
+
+- Server: ReadingList
+	- Server: Registration
+- Server: Remote Settings
+- Server: Screenshots
+- Server: Share
+- Server: Shavar
+- Server: SimplePush
+- Server: Sync
+- Server: Token
+- Server: WebPush
+- Service
+- Services
+- Servo VCS Sync
+- Session Restore
+- Shape of the Web
+- Share: Firefox Client
+- Share: Web Client
+- Shared Components
+- Shell Integration
+- Shield Study
+- si / Sinhala
+- Sidebar
+- Signature
+- Silme
+- Simple MAPI
+- Site Identity
+- Site Permissions
+- sk / Slovak
+- Skype
+- sl / Slovene
+- Social Media
+- son / Songhay
+- Soup
+- Source Code Analysis
+- Source Editor
+- Spark
+- spark.mozilla.org
+- Spelling checker
+- Splinter
+- sq / Albanian
+- sr / Serbian
+- SRE
+- ss / Swazi
+- SSL Certificates
+- SSO: Issues
+- SSO: Requests
+- st / Southern Sotho
+- Stability
+- Staff Email
+- Startup &amp; Profiles
+- Startup and Profile System
+- Storage
+- Storage Inspector
+- Storage: Cache API
+- Storage: IndexedDB
+- Storage: localStorage &amp; sessionStorage
+- Storage: Quota Manager
+- Storage: StorageManager
+- store.mozilla.org
+- Streaming
+- String
+- studentreps.mozilla.org
+- Style Editor
+- Sunbird Only
+- sv-SE / Swedish
+- SVG
+- sw / Swahili
+- Swag Requests
+- Symbolication
+- Symbols
+- Sync
+- Sync UI
+- System Add-ons: Off-train Deployment
+- Systems and Data
+- szl / Silesian
+- ta / Tamil
+- ta-LK / Tamil (Sri Lanka)
+- Tabbed Browser
+- Tabzilla
+- Tags
+- Talkback Server &amp; Webtool
+- Talos
+- Task Configuration
+- TaskBoard
+- Tasks
+- te / Telugu
+- Tecken
+- Telecom
+- Telemetry
+- Telemetry Aggregation Service
+- Telemetry APIs for Analysis
+- Telemetry Dashboards (TMO)
+- Test
+- Test Cases
+- Test Plans
+- Test Runs
+- Test Tracker
+- Testing Infrastructure
+- Testing Suite
+- th / Thai
+- The Open Standard
+- Theme
+- Theme &amp; Visual Design
+- Themes
+- Third Party Security Issues
+- tl / Tagalog
+- tn / Tswana
+- Toolbars and Customization
+- Toolbars and Tabs
+- Toolbars and Toolbar Customization
+- Toolchains
+- Tooling &amp; Investigations
+- Tools
+- tools.mozilla.com
+- Top Sites
+- Tours
+- tr / Turkish
+- Tracking Protection
+- Trademark Permissions
+- Trademark Violations
+- Translation
+- Transplant
+- Treeherder
+- Treeherder: API
+- Treeherder: Data Ingestion
+- Treeherder: Frontend
+- Treeherder: Infrastructure
+- trs / Triqui
+- Try
+- Try Server
+- ts / Tsonga
+- tsz / Purépecha
+- Twitter
+- ug / Uganda
+- UI
+- UI Design
+- uk / Ukrainian
+- Untriaged
+- update.instantbird.org
+- Upload
+- Upstream Synchronization
+- ur / Urdu
+- User Accounts
+- User Engagement
+- User Experience &amp; Design
+- User Interface
+- User Interface: Modal
+- User Story
+- Users &amp; Groups
+- Users and Groups
+- uz / Uzbek
+- ve / Venda
+- Venues
+- vi / Vietnamese
+- Video
+- Video/Audio Controls
+- Vidyo
+- View Source
+- Virtualization
+- Vulnerability Assessment
+- Web Analytics
+- Web Audio
+- Web Compatibility
+- Web Components
+- Web Painting
+- Web Site - Deprecated
+- Web Speech
+- web-platform-tests
+- Webapp
+- WebDriver BiDi
+- webifyme.org
+- WebPayments UI
+- WebRTC
+- WebRTC: Audio/Video
+- WebRTC: Networking
+- WebRTC: Signaling
+- WebService
+- Website
+- website-archive.mozilla.org
+- WebVR
+- Whining
+- Whistler
+- Widget
+- Widget: Cocoa
+- Widget: Gtk
+- Widget: Win32
+- wiki.instantbird.org
+- wiki.mozilla.org
+- Window Management
+- wo / Wolof
+- Workers
+- workshop.mozilla.org
+- www.instantbird.com
+- www.mozillaonline.com
+- XBL
+- xh / Xhosa
+- XML
+- XMPP
+- XPCOM
+- XPConnect
+- XPCShell Harness
+- XSLT
+- XUL
+- XUL Replacements
+- XUL Widgets
+- Yahoo! Messenger
+- yo / Yoruba
+- zam / Miahuatlán Zapotec
+- zh-CN / Chinese (Simplified)
+- zh-TW / Chinese (Traditional)
+- zu / Zulu
+
