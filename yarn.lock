@@ -959,19 +959,19 @@
   version "1.1.3"
   resolved "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz"
 
-"@octokit/auth-token@^2.4.4":
-  version "2.5.0"
-  resolved "https://registry.npmjs.org/@octokit/auth-token/-/auth-token-2.5.0.tgz"
+"@octokit/auth-token@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/auth-token/-/auth-token-3.0.0.tgz#6f22c5fc56445c496628488ba6810131558fa4a9"
   dependencies:
     "@octokit/types" "^6.0.3"
 
-"@octokit/core@^3.5.1":
-  version "3.6.0"
-  resolved "https://registry.npmjs.org/@octokit/core/-/core-3.6.0.tgz"
+"@octokit/core@^4.0.0":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@octokit/core/-/core-4.0.2.tgz#4eaf9c5fd39913b541c5e31a2b8fdc3cf50480bc"
   dependencies:
-    "@octokit/auth-token" "^2.4.4"
+    "@octokit/auth-token" "^3.0.0"
     "@octokit/graphql" "^4.5.8"
-    "@octokit/request" "^5.6.3"
+    "@octokit/request" "^6.0.0"
     "@octokit/request-error" "^2.0.5"
     "@octokit/types" "^6.0.3"
     before-after-hook "^2.2.0"
@@ -980,6 +980,14 @@
 "@octokit/endpoint@^6.0.1":
   version "6.0.12"
   resolved "https://registry.npmjs.org/@octokit/endpoint/-/endpoint-6.0.12.tgz"
+  dependencies:
+    "@octokit/types" "^6.0.3"
+    is-plain-object "^5.0.0"
+    universal-user-agent "^6.0.0"
+
+"@octokit/endpoint@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/endpoint/-/endpoint-7.0.0.tgz#be758a1236d68d6bbb505e686dd50881c327a519"
   dependencies:
     "@octokit/types" "^6.0.3"
     is-plain-object "^5.0.0"
@@ -1022,7 +1030,7 @@
     deprecation "^2.0.0"
     once "^1.4.0"
 
-"@octokit/request@^5.6.0", "@octokit/request@^5.6.3":
+"@octokit/request@^5.6.0":
   version "5.6.3"
   resolved "https://registry.npmjs.org/@octokit/request/-/request-5.6.3.tgz"
   dependencies:
@@ -1033,11 +1041,22 @@
     node-fetch "^2.6.7"
     universal-user-agent "^6.0.0"
 
-"@octokit/rest@^18.12.0":
-  version "18.12.0"
-  resolved "https://registry.npmjs.org/@octokit/rest/-/rest-18.12.0.tgz"
+"@octokit/request@^6.0.0":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@octokit/request/-/request-6.0.1.tgz#d5f53b6adb56018be2793869611ed66f58f1454f"
   dependencies:
-    "@octokit/core" "^3.5.1"
+    "@octokit/endpoint" "^7.0.0"
+    "@octokit/request-error" "^2.1.0"
+    "@octokit/types" "^6.16.1"
+    is-plain-object "^5.0.0"
+    node-fetch "^2.6.7"
+    universal-user-agent "^6.0.0"
+
+"@octokit/rest@^19.0.1":
+  version "19.0.1"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-19.0.1.tgz#5eaa384b096e1ebbe02390297bde085a2457e696"
+  dependencies:
+    "@octokit/core" "^4.0.0"
     "@octokit/plugin-paginate-rest" "^2.16.8"
     "@octokit/plugin-request-log" "^1.0.4"
     "@octokit/plugin-rest-endpoint-methods" "^5.12.0"
