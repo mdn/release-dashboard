@@ -1,13 +1,13 @@
 <script>
 import Home from './Home.vue'
 import Releases from './Releases.vue'
-import Github from './Github.vue'
+import GitHub from './GitHub.vue'
 import NotFound from './NotFound.vue'
 
 const routes = {
   '/': Home,
   '/releases': Releases,
-  '/github': Github,
+  '/github': GitHub,
 }
 
 export default {
