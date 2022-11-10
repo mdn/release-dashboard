@@ -10,7 +10,7 @@
   "dependencies": {
     "@octokit/rest": "^19.0.5",
     "core-js": "^3.26.0",
-    "vue": "^3.2.41"
+    "vue": "^3.2.44"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.8",
