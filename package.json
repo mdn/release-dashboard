@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@octokit/rest": "^19.0.5",
-    "core-js": "^3.27.0",
+    "core-js": "^3.27.1",
     "vue": "^3.2.45"
   },
   "devDependencies": {
