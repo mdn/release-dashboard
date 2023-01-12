@@ -12,36 +12,34 @@ You can batch set `dev-doc-complete` and push bugs to github projects.
 
 (Add feature list here)
 
-## GitHub Visualisation
+## GitHub Visualization
 
 ## Project setup
 
 Create a `env` with a bugzilla api key set: `VUE_APP_BUGZILLA_API_KEY=`
 
-```
+```bash
 yarn install
 ```
 
 ### Compiles and hot-reloads for development
-```
+
+```bash
 yarn serve
 ```
 
 ### Compiles and minifies for production
-```
+
+```bash
 yarn build
 ```
 
 ### Lints and fixes files
-```
+
+```bash
 yarn lint
 ```
 
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-=======
-
-
->>>>>>> 306f00d (Initial commit)
