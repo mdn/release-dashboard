@@ -19,25 +19,25 @@ You can batch set `dev-doc-complete` and push bugs to github projects.
 Create a `env` with a bugzilla api key set: `VUE_APP_BUGZILLA_API_KEY=`
 
 ```bash
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 
 ```bash
-yarn serve
+npm run serve
 ```
 
 ### Compiles and minifies for production
 
 ```bash
-yarn build
+npm run build
 ```
 
 ### Lints and fixes files
 
 ```bash
-yarn lint
+npm run lint
 ```
 
 ### Customize configuration
