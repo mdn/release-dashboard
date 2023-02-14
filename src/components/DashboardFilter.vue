@@ -7,7 +7,6 @@
     <!-- NB below are ideas, will need to see what works & what doesn't & user test to define -->
 
     <div class="search-quick">
-
       <h3>Quick links</h3>
 
       <button type="button">All bugs</button>
@@ -21,11 +20,10 @@
         <input type="text" id="bugid" name="bugid" />
         <button type="button">Show</button>
       </div>
-
-    </div><!-- .search-quick -->
+    </div>
+    <!-- .search-quick -->
 
     <div class="search-filter">
-
       <h3>Filter</h3>
 
       <div class="form-field">
@@ -59,42 +57,32 @@
       <button type="button">Go!</button>
 
       <!-- possible others: What am I working on -->
-    </div><!-- .search-filter -->
-
+    </div>
+    <!-- .search-filter -->
   </aside>
 </template>
 
-<script>
-
-</script>
+<script></script>
 
 <style scoped>
+div[class*="search"] {
+  border-bottom: 2px solid var(--highlightColour);
+  padding-bottom: var(--spacing);
+}
 
-  div[class*="search"] {
-    border-bottom: 2px solid var(--highlightColour);
-    padding-bottom: var(--spacing);
-  }
+button {
+  display: block;
+  width: 67%;
+  margin: var(--spacing) 0px;
+}
 
-  button {
-    display: block;
-    width: 67%;
-    margin: var(--spacing) 0px;
-  }
+.search-filter label,
+.search-filter select {
+  display: block;
+}
 
-  .search-filter label,
-  .search-filter select {
-    display: block;
-  }
-
-  .search-filter select {
-    width: 100%;
-    margin-bottom: var(--spacing);
-  }
-
+.search-filter select {
+  width: 100%;
+  margin-bottom: var(--spacing);
+}
 </style>
-
-
-
-
-
-
