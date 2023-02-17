@@ -2,6 +2,9 @@
   "name": "release-dashboard",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,7 +12,7 @@
   },
   "dependencies": {
     "@octokit/rest": "^19.0.7",
-    "core-js": "^3.27.2",
+    "core-js": "^3.28.0",
     "vue": "^3.2.47"
   },
   "devDependencies": {
