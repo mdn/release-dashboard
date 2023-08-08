@@ -20,7 +20,7 @@
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
     "@vue/compiler-sfc": "^3.3.2",
-    "@babel/eslint-parser": "^7.22.9",
+    "@babel/eslint-parser": "^7.22.10",
     "eslint": "^8.46.0",
     "eslint-plugin-vue": "^9.16.1"
   },
