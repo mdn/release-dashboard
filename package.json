@@ -21,7 +21,7 @@
     "@vue/cli-service": "^5.0.8",
     "@vue/compiler-sfc": "^3.3.2",
     "@babel/eslint-parser": "^7.22.15",
-    "eslint": "^8.50.0",
+    "eslint": "^8.51.0",
     "eslint-plugin-vue": "^9.17.0"
   },
   "browserslist": [
