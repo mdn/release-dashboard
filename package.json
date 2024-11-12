@@ -22,7 +22,7 @@
     "@vue/compiler-sfc": "^3.5.10",
     "@babel/eslint-parser": "^7.25.9",
     "eslint": "^9.14.0",
-    "eslint-plugin-vue": "^9.30.0"
+    "eslint-plugin-vue": "^9.31.0"
   },
   "browserslist": [
     "> 1%",
