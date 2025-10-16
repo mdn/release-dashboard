@@ -1,7 +1,7 @@
 name: "auto-merge"
 on: [pull_request_target]
 
-# No GITHUB_TOKEN permissions, as we use AUTOMERGE_TOKEN instead.
+# No GITHUB_TOKEN permissions, as we use GH_TOKEN instead.
 permissions: {}
 
 jobs:
