@@ -1,13 +1,14 @@
-name: "auto-merge"
-on: [pull_request_target]
+name: auto-merge
 
-# No GITHUB_TOKEN permissions, as we use GH_TOKEN instead.
-permissions: {}
+on:
+  pull_request_target:
+
+permissions:
+  contents: read
 
 jobs:
   auto-merge:
+    if: github.repository_owner == 'mdn'
     uses: mdn/workflows/.github/workflows/auto-merge.yml@main
-    with:
-      target-repo: "mdn/release-dashboard"
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
